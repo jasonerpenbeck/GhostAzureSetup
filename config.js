@@ -1,7 +1,7 @@
 // # Ghost Configuration
 // Setup your Ghost install for various environments
 // Documentation can be found at http://support.ghost.org/config/
- 
+
 var path = require('path'),
     config;
 
@@ -10,7 +10,7 @@ config = {
     // When running Ghost in the wild, use the production environment
     // Configure your URL and mail settings here
     production: {
-        url: 'http://yourawesomewebsite.azurewebsites.net/',
+        url: 'http://jasonerpenbeck.azurewebsites.net/',
         mail: {},
         database: {
             client: 'sqlite3',
